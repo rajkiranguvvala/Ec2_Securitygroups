@@ -19,7 +19,7 @@ output "vpc_private_subnet" {
 
 output "vpc_public_subnet" {
 
-    description = "Prublic subnets"
+    description = "Public subnets"
     value = module.onestopnews.public_subnets
   
 }
